@@ -1,0 +1,8 @@
+.navmenu a {
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 20px;
+}
+.navmenu a:hover{
+        color: red;
+}
