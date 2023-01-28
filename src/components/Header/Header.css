@@ -6,3 +6,7 @@
 .navmenu a:hover{
         color: red;
 }
+
+.active{
+        background-color: aquamarine;
+}

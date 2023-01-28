@@ -3,12 +3,13 @@ import { useLoaderData } from 'react-router-dom';
 import './PostDetails.css';
 
 const PostDetails = () => {
-    const postDetails = useLoaderData();
+    const post = useLoaderData();
+    const { id, title, body } = post;
     return (
         <div className='post-details'>
-            <h1>Post Details For ID: {postDetails.id}</h1>
-            <h3>post title: {postDetails.title}</h3>
-            <p>post body: {postDetails.body}</p>
+            <h1>Post Details For ID: {id}</h1>
+            <h3>post title: {title}</h3>
+            <p>post body: {body}</p>
         </div>
     );
 };

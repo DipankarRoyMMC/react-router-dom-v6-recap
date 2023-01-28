@@ -19,7 +19,7 @@ const Post = ({ post }) => {
             <Link to={`/post/${id}`}>
                 <button>post detials</button>
             </Link>
-            <Link to={`/post/${id}`}>sed details</Link>
+            <Link to={`/post/${id}`}>visit id NO: {`${id}`}</Link>
 
         </div>
     );
