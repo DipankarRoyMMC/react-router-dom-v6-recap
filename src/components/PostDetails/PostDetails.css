@@ -1,0 +1,7 @@
+.post-details{
+    border: 2px solid purple;
+    padding: 15px;
+    width: 400px;
+    margin:  30px auto 30px; 
+    border-radius: 10px;
+}
